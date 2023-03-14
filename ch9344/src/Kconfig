@@ -1,0 +1,8 @@
+config USB_SERIAL_CH9344
+        tristate "Winchiphead CH9344 8 Port USB to Serial Driver"
+        help
+          Say Y here if you want to use a Winchiphead CH9344 8 port
+          USB to serial adapter.
+
+          To compile this driver as a module, choose M here: the
+          module will be called ch9344.
